@@ -1,0 +1,24 @@
+body{
+    font-size: 40px;
+}
+#divMain{
+    font-size: 32px;
+}
+#div1{
+    font-size: 2em;
+}
+#div2{
+    font-size: 1rem;
+}
+#div3{
+    font-size: 75%;
+}
+tr #th1Heading{
+    background-color: bisque;
+}
+table{
+    border: 2px dotted black;
+}
+table td, th, tr{
+    border: 2px solid black;
+}

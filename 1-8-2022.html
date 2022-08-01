@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        alert("Good Morning")
+    </script>
+</head>
+<body>
+    <p id="p1">Hello World</p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <script>
+        var p=Number("5");
+        var q=8;
+        var r= p+q;
+        document.getElementById("p1").innerHTML = "Hello Paragraph " + r;
+
+        var first="John "
+        var last= "Doe"
+        document.getElementById("p2").innerHTML= first + last;
+
+        let person1 = {
+            firstname: "Raghav",
+            lastname: "Don",
+            age: 20,
+            eyeColour: "blue",
+        };
+        document.getElementById("p3").innerHTML= person1.firstname + " & Age is "+ person1.age;
+        
+    </script>
+</body>
+</html>
