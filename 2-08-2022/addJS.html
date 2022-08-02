@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function myFun() {
+
+            let n1 = document.getElementById("i1").value;
+            let n2 = document.getElementById("i2").value;
+            n1 = Number(n1);
+            n2 = Number(n2);
+            if (!isNaN(n1) && !isNaN(n2)) {
+                document.getElementById("p1").innerHTML = (n1 + n2);
+            }
+            else {
+                document.getElementById("p1").innerHTML = "<span style='color:red'>Entered value is not a Number </span>";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <form onsubmit="myFun()">
+        <input type="text" name="n1" id="i1">
+        <input type="text" name="n1" id="i2">
+
+        <p id="p1"> </p>
+        <input type="submit" value="Next"/ >
+        <input type="reset" id="b2" value="Reset">
+    </form>
+</body>
+
+</html>

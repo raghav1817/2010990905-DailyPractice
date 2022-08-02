@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Functions</title>
+    <script>
+        function myFun(){
+            // alert("Hello World");
+            let n1 = document.getElementById("i1").value;
+            // alert(i1);
+            // let k= true;
+            // if(i1>0){
+            //     alert("Ok");           
+            //  }
+            //  else {
+            //     alert("False")
+            //  }
+          
+            if (n1== null || n1== " " || n1 == ""){
+                document.getElementById("p1").innerHTML= "<span style='color:red'>Did Not Write anything </span>";
+            }
+            else{
+                document.getElementById("p1").innerHTML = n1;
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="text" name="n1" id="i1">
+    <button onclick=" myFun()">Submit Me!</button><br>
+    <p id="p1"> </p>
+    <input type="reset" id="b2" value="Reset">
+
+</body>
+</html>
