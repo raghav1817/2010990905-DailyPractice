@@ -1,0 +1,20 @@
+.outer{
+    height: 70vh;
+    width:  80vw;
+    background-color: brown;
+    margin: 7% 10% ;
+}
+
+#t1{
+    margin-left: 20 vw;
+    height: 4vh;
+    width: 90 vw;
+    border : 2px solid black;
+}
+
+#button1{
+    height: 25%;
+    width: 20%;
+    background-color: light pink;
+    border: 2px solid black;
+}
